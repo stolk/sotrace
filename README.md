@@ -28,6 +28,14 @@ This means it will miss:
  * statically linked dependencies.
  * plugins (.so files that are loaded at run-time, not load-time.)
 
+## Dependencies
+
+To run this tool, you need python3.
+
+To create the graph, you need dot from the graphviz package.
+
+Personally I use eog to view the svg, but any browser would work, or also Imagemagick's display command.
+
 ## Author
 
 Bram Stolk b.stolk@gmail.com
