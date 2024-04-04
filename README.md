@@ -5,7 +5,7 @@ Traces the shared-object dependencies of a binary, and graphs them.
 
 ```
 ./sotrace.py /path/to/foo out.dot
-dot -Tout.svg out.dot
+dot -Tsvg -o out.svg out.dot
 eog out.svg
 ```
 
