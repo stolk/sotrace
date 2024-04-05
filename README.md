@@ -9,6 +9,13 @@ dot -Tsvg -o out.svg out.dot
 eog out.svg
 ```
 
+## Alternate Usage
+
+It is also possible to map the actually loaded .so files of a process by giving the tool a PID instead of a file.
+```
+./sotrace.py PID out.dot
+```
+
 ![example output](images/out-glxgears.svg "glxgears dependencies")
 
 ## Rationale
