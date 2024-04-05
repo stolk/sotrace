@@ -33,7 +33,8 @@ Currently, it will only find dependencies that are dynamically linked.
 
 This means it will miss:
  * statically linked dependencies.
- * plugins (.so files that are loaded at run-time, not load-time.)
+
+To see the dynamically loaded libraries, that were opened with `dlopen()` you need to run the tool on a PID, not a binary.
 
 ## Dependencies
 
